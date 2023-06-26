@@ -1,0 +1,120 @@
+/*MENU*/
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .navbar {
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .logo {
+    margin-left: 30px;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .navbar a:hover {
+    background: #3f3f3f;
+  }
+  
+  .logo {
+    margin-left: 30px;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  
+    /*fondo*/
+  body{
+  
+    background-image: url(IMG/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .contenedor-1{
+    display: center;
+  } 
+  /*imagen*/
+  .img-1{
+    margin-right: 15px;
+  }.img-2{
+    margin-right: 15px;
+  }.img-3{
+    margin-right: 15px;
+  }
+  .img-4{
+    margin-right: 15px;
+  }
+  /* imagenes-1 */
+  .contenedor{
+    display: center;
+  } 
+  .img-1{
+    margin-right: 10px;
+  }.img-2{
+    margin-right: 10px;
+  }.img-3{
+    margin-right: 10px;
+  }
+  .img-4{
+    margin-right: 10px;
+  }
+  
+  
+  
+  
+  
+  /*logo*/
+  .brand img{
+    width:20px;
+    height:20;
+    align-self: center;
+  }
+  
+  .footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align:center;
+  }
+  .footer-logo {
+    width: 200px;
+  }
+  .footer-links a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  nav {
+    max-width: 1400px;
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+    padding: 5px 0;
+  }
